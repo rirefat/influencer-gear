@@ -1,0 +1,54 @@
+/* Common Section */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;600&display=swap');
+body{
+    width: 85%;
+    margin: auto;    
+}
+
+/* Top Banner Section */
+.top-banner{
+    display: flex;
+    align-items: center;
+       
+}
+.banner-text{
+    padding-right: 18%;
+}
+.banner-text h1{
+    font-size: 62px;    
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+}
+.highlighted-text{
+    color: #1e90ff;
+}
+.banner-text p{
+    font-size: 20px;
+    font-family: 'Roboto Slab', serif;
+}
+.banner-text a{
+    text-decoration: none;
+    text-align: center;
+    font-size: 22px;
+    font-weight: 600;
+    color: white;
+    border: 1px solid transparent;
+    border-radius: 30px;
+    background-color: #1e90ff;
+    padding: 10px 25px;
+    display: inline-block;
+    margin: 10px 0;
+    box-shadow: grey 10px 10px 15px;
+    transition: 0.5s;
+}
+.fa-angle-right{
+    visibility: hidden;
+}
+.banner-text a:hover {
+    transform: translate(0,-5px);
+}
+.banner-text a:hover .fa-angle-right{
+    visibility: visible;
+    transition: visibility(2000);
+}
