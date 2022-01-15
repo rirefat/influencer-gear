@@ -4,6 +4,7 @@
 body{
     width: 85%;
     margin: auto;    
+    background-color: #f1f2f6;
 }
 
 /* Top Banner Section */
@@ -71,4 +72,87 @@ body{
 }
 .brand-logos:hover{
     transform: scale(1.1);
+}
+
+/* New Arrival's Section */
+#new-arrivals {
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 600;
+}
+.new-arrivals{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+    grid-row-gap: 55px;
+    margin: 5% 0;
+}
+.products{
+    background: white;
+    padding: 1.5%;
+    border: 1px solid transparent;
+    border-radius: 15px;
+    box-shadow: 5px 5px 12px grey;
+    width: fit-content;
+}
+.photo-frame{
+    overflow: hidden;
+    cursor: pointer;
+    }
+.photo-frame:hover img{
+    transform: scale(1.5);
+    transition: transform 1.8s;
+}
+.fa-star, .fa-star-half-alt{
+    color: goldenrod;
+    margin: 0 1%;
+}
+.new-arrivals h2{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 10px 0;
+}
+.new-arrivals p{
+    font-size: 15px;
+    font-weight: 300;
+    font-family: 'Roboto Slab', serif;
+}
+.ratings{
+    font-weight: 900;
+}
+.rating-number{
+    margin: 0 2%;
+    background-color: #fdc4c4;
+    color: red;
+    padding: 2px 10px;
+    border-radius: 10px;    
+}
+.buy-now-button{
+    text-align: center;
+    margin: 5% 0;
+}
+.new-arrivals a{    
+    text-decoration: none;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 600;
+    color: white;
+    border: 1px solid transparent;
+    border-radius: 30px;
+    background-color: #1e90ff;
+    padding: 5px 25px;
+    display: inline-block;
+    margin: 10px;
+    box-shadow: grey 10px 10px 15px;
+    transition: 0.5s;
+}
+.new-arrivals a:hover {
+    transform: translate(0,-5px);
+    box-shadow: rgb(99, 98, 98) 12px 12px 18px;
+}
+.new-arrivals .fa-caret-right{
+    display: none;
+}
+.new-arrivals a:hover .fa-caret-right{
+    display: inline-block;
 }
