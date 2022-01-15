@@ -107,10 +107,11 @@ New Arrival's Section
     border: 1px solid transparent;
     border-radius: 15px;
     box-shadow: 5px 5px 12px grey;
-    width: fit-content;
+    width: 70%;
 }
 .photo-frame{
     overflow: hidden;
+    text-align: center;
     cursor: pointer;
     }
 .photo-frame:hover img{
@@ -298,8 +299,8 @@ Media Query For The Screen Size of 975px
     }
 
     /* Branding Partner Section */
-    .branding-partners{
-        margin: 0 2%;
+    .branding-partners>div{
+        margin: 10px;;
     }
 
     /* New Arrival's Section */
@@ -332,10 +333,6 @@ Media Query For The Screen Size of 790px
         padding-right: 0;
     }
 
-    /* Branding Partner Section */
-    .branding-partners{
-        margin: 0 2%;
-    }
 
     /* New Arrival's Section */
     .new-arrivals{
