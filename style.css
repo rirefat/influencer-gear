@@ -47,8 +47,28 @@ body{
 }
 .banner-text a:hover {
     transform: translate(0,-5px);
+    box-shadow: rgb(99, 98, 98) 12px 12px 18px;
 }
 .banner-text a:hover .fa-angle-right{
     visibility: visible;
     transition: visibility(2000);
+}
+
+/* Branding Partner Section */
+.branding-partners{
+    margin: 10% 0;
+    padding: 3% 0;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-top: 1px solid #dfe4ea;
+    border-bottom: 1px solid #dfe4ea;
+    flex-wrap: wrap;
+}
+.brand-logos{
+    margin: 2% 2%;
+    cursor: pointer;
+}
+.brand-logos:hover{
+    transform: scale(1.1);
 }
